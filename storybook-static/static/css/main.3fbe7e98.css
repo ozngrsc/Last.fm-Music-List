@@ -1,0 +1,50 @@
+.card {
+    width: 100%;
+    height: 200px;
+}
+.topAlbums, .topTracks {
+    height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.topAlbums::-webkit-scrollbar, .topTracks::-webkit-scrollbar {
+    width: 12px;
+
+}
+.player:hover {
+    color: red !important;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+   }
+   
+   .darkModeIcon:hover, .lightModeIcon:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    transition: ease-in-out 0.1s;
+   }
+.topArtists {
+    height: 900px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.topArtists::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+.topArtists::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    
+}
+
+.topArtists::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/*# sourceMappingURL=main.3fbe7e98.css.map*/
