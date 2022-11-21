@@ -1,0 +1,10 @@
+.topAlbums, .topTracks {
+    height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.topAlbums::-webkit-scrollbar, .topTracks::-webkit-scrollbar {
+    width: 12px;
+
+}
