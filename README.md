@@ -1,10 +1,10 @@
-# Fazla Gıda Task (Last.fm)
+#  Last.fm Music List
 
 A basic music list web application which is created with using ReactJS. It fetches the data from Last.fm API with Axios.
 You can view the top artist lists at home page and check the details of an artist which you select. You can also view the application in dark or light mode.
 
 
-## Fazla Gıda (Last.fm) Link
+##  Last.fm Music List
 
 You can view the site here
 [Click Me](https://fazlagida-task-lastfm.vercel.app/)
