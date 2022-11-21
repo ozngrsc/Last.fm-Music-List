@@ -7,7 +7,7 @@ import SkipPreviousOutlinedIcon from "@mui/icons-material/SkipPreviousOutlined";
 import SkipNextOutlinedIcon from "@mui/icons-material/SkipNextOutlined";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
-/* import { Link } from "react-router-dom"; */
+import { Link } from "react-router-dom";
 
 function Header({ darkMode, setDarkMode }) {
   return (
@@ -21,15 +21,15 @@ function Header({ darkMode, setDarkMode }) {
         </div>
       </div>
       <div>
-        {/*  <Link to="/" className="navbar-brand"> */}
-        <img
-          data-testid="headerLogo"
-          src={Logo}
-          alt="Last.fm"
-          width="124"
-          height="30"
-        />
-        {/*  </Link> */}
+        <Link to="/" className="navbar-brand">
+          <img
+            data-testid="headerLogo"
+            src={Logo}
+            alt="Last.fm"
+            width="124"
+            height="30"
+          />
+        </Link>
       </div>
       <div className="d-flex align-items-center me-4">
         <button

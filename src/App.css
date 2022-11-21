@@ -21,3 +21,11 @@ color:#292c35
   transition: 0.3s;
   color: white;
 }
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
