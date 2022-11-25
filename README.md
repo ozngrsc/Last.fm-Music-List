@@ -24,6 +24,7 @@ You can view the Storybook here
 - Bootstrap
 - CSS
 - MUI Icons
+- Responsive Design
 - Deployed with Vercel
 
 
